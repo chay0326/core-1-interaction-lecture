@@ -2,13 +2,20 @@ body {
   background-color: rgb(198, 237, 255);
   min-height: 100vh;
 }
+
+
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 90px 
+}
+
 head {
-font-family: 'Times New Roman', Times, serif;
-font-size:x-large
-color: black;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-size: small;
 }
-body{
+
+body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: medium;
+  font-size: 200px
 }
- 
