@@ -1,12 +1,36 @@
 body {
-  background-color: rgb(198, 237, 255);
-  min-height: 100vh;
+    background: linear-gradient(
+        120deg,
+        red,
+        orange,
+        yellow,
+        green,
+        cyan,
+        blue,
+        purple
+    );
+
+    background-size: 400% 400%;
+    animation: rainbow 10s ease infinite;
 }
 
+@keyframes rainbow {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
 
 h1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 90px 
+  font-size: 90px
 }
 
 head {
@@ -18,4 +42,8 @@ head {
 body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 200px
+}
+
+h2 {
+  color: red;
 }
