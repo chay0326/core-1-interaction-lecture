@@ -4,8 +4,11 @@ body {
 }
 head {
 font-family: 'Times New Roman', Times, serif;
-font-size: medium;
+font-size:x-large
 color: black;
 }
-
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+}
  
